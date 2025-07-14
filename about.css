@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff9f9;
+  font-family: 'Times New Roman', sans-serif;
+  color: #444;
+}
+
+/* Hero section */
+.hero {
+  background: url('bunga/gif/gif2.gif') center/cover no-repeat;
+  padding: 150px 0;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.hero h1 {
+  font-family: 'Great vibes', cursive;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.tagline {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #ffe9f0;
+}
+
+/* Card utama */
+.about-card {
+  background-color: #fff7f9;
+  border: 2px dashed #f8d3da;
+  border-left: 5px solid #f8d9e0;
+  box-shadow: 0 4px 15px rgba(255, 179, 198, 0.3);
+}
+
+/* Kotak kotak */
+.info-box, .feature-box {
+  background-color: #fffdfd;
+  border: 2px solid #f8d3da;
+  box-shadow: 0 3px 10px rgba(255, 182, 193, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.info-box:hover,
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 150, 170, 0.3);
+}
+
+.border-pink {
+  border-color: #f8d3da !important;
+}
+
+h2, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  color: #c04a6a;
+}
+
+/* Tombol */
+.btn-danger {
+  background-color: #d94c73;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #b93b5e;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 0;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+}

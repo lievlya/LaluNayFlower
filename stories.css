@@ -1,0 +1,43 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fef9f6;
+  color: #3e3e3e;
+}
+
+#stories h2 {
+  color: #b04b4b;
+  font-weight: bold;
+}
+
+.table-stories {
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.table-stories th {
+  font-size: 1.1rem;
+  background: linear-gradient(90deg, #f8a9b4, #fddde6);
+  color: #fff;
+  border: none;
+}
+
+.table-stories td {
+  background-color: #fffafc;
+  vertical-align: middle;
+  padding: 1rem;
+  border: 1px solid #ffd6e8;
+}
+
+.table-stories tr:hover td {
+  background-color: #fff1f6;
+  transition: 0.3s ease;
+}
+
+.story-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 3px solid #ffd6e8;
+  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.3);
+}

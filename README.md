@@ -53,27 +53,32 @@ Toko-Bunga/
 │    └── gif1
 │    └── gif2
 │    └── gif4
-├── gallery.php
-├── profile.php
+├── foto_stories/ (buat menyimpan foto yang diupload dari halaman stories)
+├── pict/ (masukkan 2 foto untuk foto profil ig dan juga email)
+├── about.php
+├── about.css
 ├── form.php
 ├── contact.php
-├── css/
-│ ├── gallery.css
-│ ├── profile.css
-│ ├── contact.css
-│ └── form.css
-├── img/
-│ └── berbagai gambar bunga
-├── js/
-│ └── interaksi promo (jika ada)
-├── proses/
-│ └── proses-form.php
+├── contact.css
+├── explore_bloom.php
+├── explore_bloom.css
+├── navbar.php
+├── footer.php
+├── hf.css
+├── home.php
+├── home.css
+├── order.php
+├── order.css
+├── stories.php
+├── stories.css
+├── proses_stories.php
+├── koneksi.php
+├── lalunay.sql (database untuk lalunayy, bisa diimpor terlebih dahulu ke dalam MySQL atau di phpmyadmin)
 └── README.md
 
 📌 Cara Menjalankan (Lokal)
 1. Letakkan folder project di dalam `htdocs` (jika menggunakan XAMPP)
-2. Jalankan Apache (XAMPP) dan buka:
-http://localhost/Toko-Bunga
+2. Jalankan Apache (XAMPP) dan buka: http://localhost/Toko-Bunga
 3. Coba form pendaftaran, pembelian, dan tombol “Lihat Cerita”
 
 🎓 Tentang Project

@@ -91,3 +91,5 @@ Toko-Bunga/ <br>
 Kalau kamu ingin tanya lebih lanjut atau tertarik dengan project ini, silakan hubungi saya:
 - Email: `dyahkartikahapsari@gmai.com`
 - Instagram: [@lievlya](https://instagram.com/lievlya)
+
+Link YT Project (https://youtu.be/VoTJ6U3-dJg?si=dN_wUfYzmTt8wpGZ)
